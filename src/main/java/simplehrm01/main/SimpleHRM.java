@@ -28,7 +28,6 @@ public class SimpleHRM {
         //Person person02 = new Employee("SIT building",25000);
         //3
         Faculty person03 = new Faculty("Prapakeaw Aristawan","fac@sit.kmutt.com");
-        Arrays.sort(person);
         //4
         //Student std01 = new Student();
         //5
@@ -44,6 +43,8 @@ public class SimpleHRM {
         //10
         Graduated p005 = (Graduated)person[0];
 
+        Arrays.sort(person);
+        
         for (int i = 0; i < person.length; i++) {
             System.out.println(person[i].toString());
 
